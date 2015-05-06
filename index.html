@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Game</title>
+        
+        <script type="text/javascript" src="js/box2d.js"></script>
+        <script type="text/javascript" src="js/helpers.js"></script>
+        <script type="text/javascript" src="js/debug.js"></script>
+        <script type="text/javascript" src="js/canvas.js"></script>
+        <script type="text/javascript" src="js/car.js"></script>
+        <script type="text/javascript" src="js/myWorld.js"></script>
+        <script type="text/javascript">  
+            window.onload = function() {
+                using(Box2D, "b2.+");
+                init();
+            };        
+        </script>
+        
+    </head>
+    <body style="background-color:#111;">
+        <div style="text-align:center">
+            <div style="margin:auto;width:1280px;padding:2px;border:1px solid #888;">            
+                <canvas id="canvas" width="1280" height="720" tabindex='1'></canvas>
+            </div>        
+        </div>
+    </body>
+</html>

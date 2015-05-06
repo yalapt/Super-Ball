@@ -1,6 +1,6 @@
-Supper Ball
+Super Ball
 ======
 
 HTML 5 Gaming
 
-http://supper-ball.thomas-yalap.com
+http://super-ball.thomas-yalap.com
